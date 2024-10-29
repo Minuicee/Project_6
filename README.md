@@ -17,4 +17,4 @@ Key combinations:
 Important notes:
 
     -Amount of Pixels should be a divisor of the frame size! (otherwise drawing function will not draw exactly at cursor)
-    -Pixels should not be more than 150! (otherwise program will crash)
+    -Amount of Pixels Device can handle is limited! (At some amount of pixels the program just crashes but amount of pixels varies from device to device)
