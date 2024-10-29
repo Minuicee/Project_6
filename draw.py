@@ -49,7 +49,7 @@ class MainWindow(QMainWindow):
                 label = QLabel(self)
                 self.grid_layout.addWidget(label, i, j)
                 self.pixel_labels[(i, j)] = label
-                self.last_save[(i, j, self.undo_version)] = label.styleSheet() #1 stands for the version
+                self.last_save[(i, j, self.undo_version)] = label.styleSheet() 
                 
                 
         #*init settingswindow
